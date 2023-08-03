@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(32, 18, 96);
+  }
+  
+  #hero {
+    height: 100vh;
+    background: url('background-image.jpg') no-repeat center center/cover;
+    color: #fff;
+  }
+  
+  .logo {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 576px) {
+    .logo {
+      max-width: 230px;
+    }
+  }
+  
+  .hero-title {
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    margin-bottom: 30px;
+  }
+  
